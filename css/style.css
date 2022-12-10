@@ -800,6 +800,7 @@ textarea {
     flex-wrap: wrap;
     justify-content: space-between;
   }
+  
 
 .footer_foto-item1{
     margin-bottom: 120px;
@@ -818,11 +819,14 @@ textarea {
     flex-wrap: wrap;
   }
 
-.footer_item{
+
+
+  .footer_list-ots{
     margin-right: 160px;
   }
+  
 
-  .footer_item:last-child{
+  .footer_list-ots:last-child{
     margin-right: 0;
   }
 
@@ -853,6 +857,22 @@ textarea {
 
   .footer_item-pod{
     margin-bottom: 20px;
+  }
+
+  .footer_list-pod{
+    margin-bottom: 123px;
+  }
+
+  .footer_link-contacts{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #181818;
+    text-decoration: none;
+  }
+
+  .footer_list-contacts{
+
   }
 
 /*footer end*/
