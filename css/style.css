@@ -453,7 +453,7 @@ textarea {
   }
 
   .card:hover{
-    transform: scale(1.05);
+    transform: scale(1.07);
 }
 
 
@@ -515,6 +515,7 @@ textarea {
     color: #FFFFFF;
     text-decoration: none;
     flex: none;
+    transition: .4s all;
   }
 
   .header_link:hover, .header_link:focus, .header_link:active{
@@ -526,7 +527,7 @@ textarea {
   /*intro start*/
 
 .intro{
-    min-height: 120vh;
+    min-height: 110vh;
     background: url(../img/Rectangle\ 80.png) no-repeat center;
     background-size: cover;
     padding-top: 364px;
@@ -558,6 +559,7 @@ textarea {
 
 .intro_info:hover, .intro_info:focus, .intro_info:active{
     opacity: .65;
+
 }
 
 .main{
@@ -588,6 +590,10 @@ textarea {
     margin-bottom: 20px;
 }
 
+.uslugi_card:hover{
+    background: #D92C04;
+}
+
 .uslugi_card-img{
     padding: 42px 42px 81px 465px;
 }
@@ -613,6 +619,10 @@ textarea {
     background: #D92C04;
     display: flex;
     flex-wrap: wrap;
+}
+
+.uslugi_card6:hover{
+    background: #181818;
 }
 
 /*uslugi end*/
@@ -859,7 +869,7 @@ textarea {
     margin-bottom: 20px;
   }
 
-  .footer_list-pod{
+  .footer_list-podq{
     margin-bottom: 123px;
   }
 
@@ -870,9 +880,4 @@ textarea {
     color: #181818;
     text-decoration: none;
   }
-
-  .footer_list-contacts{
-
-  }
-
 /*footer end*/
